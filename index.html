@@ -8,91 +8,11 @@
     <!-- <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"> -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <!-- <script src="./slick/slick.js"></script> -->
-    <!-- <script src="slick/slick.js"></script> -->
-    <script src="slick/slick.min.js"></script>
-    <script>
-        $(function () {
-            $('.slider').slick({
-                fade:true,
-                speed:2000,
-
-                autoplay: true,
-                autoplaySpeed: 1500,
-                dots: false,
-                asNavFor: '.thumb',
-                pauseOnHover: false // ﾏｳｽｵｰﾎﾊﾞｰで一時停止を無効
-            });
-            $('.thumb').slick({
-                asNavFor: '.slider',
-                focusOnSelect: true,
-                slidesToShow: 5,
-                slidesToScroll: 1
-            });
-        });
-    </script>
-
-    <style type="text/css">
-        .slider {
-            margin: 100px auto;
-            width: 80%;
-        }
-
-        .slider img {
-            height: 100px;
-            width: 100px;
-        }
-
-        /* サムネイル付き */
-        .slider,
-        .thumb {
-            margin: 10px auto;
-            width: 80%;
-        }
-
-        .slider img,
-        .thumb img {
-            height: auto;
-            width: 100%;
-        }
-
-        /*slick setting*/
-        .slick-prev{   /* */        /*追加　og*/
-            /* color: #Fd0; */
-            left: 10px ; /*左○<の位置修正､数字と単位は引っ付ける;*/
-   
-        } 
 
 
-        .slick-prev:before,
-        .slick-next:before {
-            color: #000;
-        }
-    </style>
+
 </head>
 
-<body>
-    <ul class="slider">
-        <li><a href="#"><img src="images2/01.jpg" alt="image01"></a></li>
-        <li><a href="#"><img src="images2/02.jpg" alt="image02"></a></li>
-        <li><a href="#"><img src="images2/03.jpg" alt="image03"></a></li>
-        <li><a href="#"><img src="images2/04.jpg" alt="image04"></a></li>
-        <li><a href="#"><img src="images2/05.jpg" alt="image05"></a></li>
-        <li><a href="#"><img src="images2/06.jpg" alt="image06"></a></li>
-        <li><a href="#"><img src="images2/07.jpg" alt="image07"></a></li>
-        <li><a href="#"><img src="images2/08.jpg" alt="image08"></a></li>
-    </ul>
-    <ul class="thumb">
-        <li><a href="#"><img src="images2/01.jpg" alt="image01"></a></li>
-        <li><a href="#"><img src="images2/02.jpg" alt="image02"></a></li>
-        <li><a href="#"><img src="images2/03.jpg" alt="image03"></a></li>
-        <li><a href="#"><img src="images2/04.jpg" alt="image04"></a></li>
-        <li><a href="#"><img src="images2/05.jpg" alt="image05"></a></li>
-        <li><a href="#"><img src="images2/06.jpg" alt="image06"></a></li>
-        <li><a href="#"><img src="images2/07.jpg" alt="image07"></a></li>
-        <li><a href="#"><img src="images2/08.jpg" alt="image08"></a></li>
-    </ul>
-</body>
+
 
 </html>
